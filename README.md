@@ -1,4 +1,4 @@
-# cookbook-vue
+# vue-component
 
 ## Project setup
 ```
