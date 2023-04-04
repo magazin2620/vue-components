@@ -8,12 +8,6 @@ const routes = [
     component: Home,
   },
   {
-    path: '/search',
-    name: 'Search',
-    component: () =>
-      import(/* webpackChunkName: "search" */ '../views/Search.vue'),
-  },
-  {
     path: '/filter',
     name: 'Filter',
     component: () =>
@@ -30,6 +24,12 @@ const routes = [
     name: 'Intersection',
     component: () =>
       import(/* webpackChunkName: "pagination" */ '../views/Intersection.vue'),
+  },
+    {
+    path: '/modal',
+    name: 'Modal',
+    component: () =>
+      import(/* webpackChunkName: "search" */ '../views/Modal.vue'),
   },
 ];
 
