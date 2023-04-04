@@ -29,7 +29,7 @@ const routes = [
     path: '/modal',
     name: 'Modal',
     component: () =>
-      import(/* webpackChunkName: "search" */ '../views/Modal.vue'),
+      import(/* webpackChunkName: "search" */ '../components/Modal.vue'),
   },
 ];
 
