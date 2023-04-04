@@ -5,11 +5,11 @@
       v-focus
       v-model="searchQuery"
       type="search"
-      placeholder="abc..."
+      placeholder="abc"
     />
     <div class="search__content" v-for="post in searchedPosts" :key="post.id">
-      <div>{{ post.id }}</div>
       <div>{{ post.title }}</div>
+      <div>{{ post.id }}</div>
     </div>
   </div>
 </template>
