@@ -1,10 +1,10 @@
 <template>
   <div id="nav">
-    <router-link to="/">Modal</router-link> |
-    <router-link to="/search">Search</router-link> |
+    <router-link to="/">Search</router-link> |
     <router-link to="/filter">Filter</router-link> |
     <router-link to="/pagination">Pagination</router-link> |
-    <router-link to="/intersection">Intersection</router-link>
+    <router-link to="/intersection">Intersection</router-link> |
+    <router-link to="/modal">Modal</router-link>
   </div>
   <router-view />
 </template>
